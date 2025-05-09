@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #2563eb;
+  --padding-base: 1rem;
+  --font-size-lg: 16px;
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+main {
+  display: flex;
+  flex-direction: column;    /* 垂直排列 */
+  align-items: center;       /* 水平置中 */
+  justify-content: center;   /* 垂直置中（如需要） */
+}
+
+section{
+  display: flex;
+  width: 100%;
+  min-height: 300px;
+  background-color: #CCDDEE;
+  justify-content: center;
+  align-items: center;
+}
+
+input, select {
+  padding: 5px
+}
+
+.button {
+  background-color: #EEEEEE;
+  padding: 5px;
+  border: 1px solid #D3D3D3;
+  box-shadow: none;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  background-clip: padding-box;
+  margin: 20px;
+  cursor: pointer;
+}

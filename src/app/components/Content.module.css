@@ -1,0 +1,15 @@
+.content {
+    background-color: #e8e8e8;
+    height: 300px;
+    color: var(--primary-color);
+    font-size: 16px;
+    padding: var(--padding-base);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.section {
+  width: 300px;
+  background-color: #CCDDEE;
+}

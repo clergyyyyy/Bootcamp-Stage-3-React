@@ -1,0 +1,52 @@
+.container {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+.inputFormContainer {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #EBEBEB;
+  }
+  
+  .recordListContainer {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .recordRow {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  
+  .amount {
+    width: 100px;
+    flex-shrink: 0;
+    text-align: right;
+  }
+  
+  .description {
+    flex: 1;
+    padding: 0 1rem;
+  }
+  
+  .actions {
+    width: 80px;
+    flex-shrink: 0;
+    text-align: center;
+  }
+  
+  .total {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1.5rem;
+  }

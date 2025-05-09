@@ -1,0 +1,42 @@
+.section {
+    background-color: #fff;
+}
+
+.recordListContainer {
+    width: 100%;
+    max-width: 474px;
+    position: relative;
+  }
+  
+  .listReset {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .recordRow {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+  }
+  
+  .category {
+    flex: 0 0 59px;
+    text-align: center;
+  }
+  
+  .amount {
+    flex: 0 0 153px;
+    text-align: right;
+  }
+  
+  .description {
+    flex: 1;           
+    padding: 0 1rem;
+  }
+  
+  .deleteBtn {
+    flex: 0 0 80px;
+    text-align: center;
+  }
+  
