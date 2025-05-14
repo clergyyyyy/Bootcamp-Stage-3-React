@@ -1,0 +1,8 @@
+.section {
+    background-color: #fff;
+}
+
+.button {
+    display: flex;
+    max-width: 80px;
+}
